@@ -21,4 +21,14 @@ public class City implements Comparable<City>{
     public int compareTo(City city) {
         return this.city.compareTo(city.getCityName());
     }
+
+   /* public void delete(City city) {
+        if (!cities.contains(city))
+        {throw new IllegalArgumentException();}
+        else {
+            cities.remove(city);
+        }
+    }*/
+
+
 }
