@@ -47,6 +47,11 @@ public class CityList {
         return cityList;
     }
 
+    /*Deleting city
+    * @parameter city
+
+     */
+
     public void delete(City city) {
         if (!cities.contains(city))
         {throw new IllegalArgumentException();}
@@ -54,6 +59,10 @@ public class CityList {
             cities.remove(city);
         }
     }
+
+    /* Counting  cities
+    *@return
+     */
 
     public int count()
     {

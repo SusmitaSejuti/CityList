@@ -28,6 +28,8 @@ public class CityListTest {
     }
 
     @Test
+    /*Delete testing
+     */
     public void testdelete()
     {
         CityList cityList = new CityList();
@@ -53,6 +55,8 @@ public class CityListTest {
     }
 
     @Test
+    /*Delete exception teting
+     */
     public void testDeleteException() {
 
         CityList cityList = new CityList();
@@ -72,7 +76,10 @@ public class CityListTest {
         });
     }
 
+    /* sorting test*/
+
     @Test
+
     public void testGetCities() {
         CityList cityList = new CityList();
         City city1 = new City("XY" , "Chittagong" );
